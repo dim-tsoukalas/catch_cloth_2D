@@ -149,8 +149,8 @@ class Screen():
 
         # Positions_X
         if episode == 0:
-            x_filename = 'positions_x.txt'
-            y_filename = 'positions_y.txt'
+            x_filename = 'positions_x/positions_x.txt'
+            y_filename = 'positions_y/positions_y.txt'
         else:
             x_filename = f'positions_x_{episode}.txt'
             y_filename = f'positions_y_{episode}.txt'
